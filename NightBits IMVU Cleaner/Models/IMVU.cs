@@ -111,6 +111,11 @@ namespace NightBits_IMVU_Cleaner.Models
 
         private void _DeleteFilesInDirectory(String directory)
         {
+            if (isRunning())
+            {
+                return;
+            }
+
             if (!Directory.Exists(directory))
             {
                 return;

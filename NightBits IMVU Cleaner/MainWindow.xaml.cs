@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -87,6 +88,12 @@ namespace NightBits_IMVU_Cleaner
                 else
                 {
                     _mainViewModel.KillImvu();
+
+                    // Wait for the process to exit
+                    while (_mainViewModel.isRunning())
+                    {
+                        Thread.Sleep(100);
+                    }
                 }
             }
             return true;

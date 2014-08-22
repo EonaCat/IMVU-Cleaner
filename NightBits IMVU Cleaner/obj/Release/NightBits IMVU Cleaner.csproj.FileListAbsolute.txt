@@ -1,0 +1,12 @@
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Release\NightBits IMVU Cleaner.exe.config
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Release\NightBits IMVU Cleaner.exe
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Release\NightBits IMVU Cleaner.pdb
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\MainWindow.baml
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\MainWindow.g.cs
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\App.g.cs
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits IMVU Cleaner_MarkupCompile.cache
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits IMVU Cleaner.g.resources
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits_IMVU_Cleaner.Properties.Resources.resources
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits IMVU Cleaner.csproj.GenerateResource.Cache
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits IMVU Cleaner.exe
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Release\NightBits IMVU Cleaner.pdb
