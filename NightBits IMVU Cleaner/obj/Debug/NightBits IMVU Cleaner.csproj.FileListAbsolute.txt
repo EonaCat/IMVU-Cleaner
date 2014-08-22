@@ -10,3 +10,16 @@ j:\visual studio 2013\Projects\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj
 j:\visual studio 2013\Projects\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.csproj.GenerateResource.Cache
 j:\visual studio 2013\Projects\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.exe
 j:\visual studio 2013\Projects\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.pdb
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Debug\NightBits IMVU Cleaner.exe.config
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.exe
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.pdb
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Debug\NightBits IMVU Cleaner.exe
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\bin\Debug\NightBits IMVU Cleaner.pdb
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.csprojResolveAssemblyReference.cache
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\MainWindow.baml
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\MainWindow.g.cs
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\App.g.cs
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner_MarkupCompile.cache
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.g.resources
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits_IMVU_Cleaner.Properties.Resources.resources
+J:\Programming\C#\NightBits IMVU Cleaner\NightBits IMVU Cleaner\obj\Debug\NightBits IMVU Cleaner.csproj.GenerateResource.Cache

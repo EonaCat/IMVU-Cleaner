@@ -94,7 +94,14 @@ namespace NightBits_IMVU_Cleaner.Models
 
         private void _DeleteFilesInDirectory(String currentDirectory, String searchPattern="*.*")
         {
-            Directory.EnumerateFiles(currentDirectory, searchPattern).ToList().ForEach(file => File.Delete(file));
+            try
+            {
+                Directory.EnumerateFiles(currentDirectory, searchPattern).ToList().ForEach(file => File.Delete(file));
+            }
+            catch (IOException ioException)
+            {
+                Debug.WriteLine(ioException.Message);
+            }
         }
 
         private bool _IsIMVUInstalled()

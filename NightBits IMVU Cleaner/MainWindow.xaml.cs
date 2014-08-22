@@ -31,36 +31,44 @@ namespace NightBits_IMVU_Cleaner
 
         private void CleanAll_Click(object sender, RoutedEventArgs e)
         {
-            KillImvu();
-            _action = "log, cache and avi";
-            _mainViewModel.CleanCache();
-            _mainViewModel.CleanLogs();
-            _mainViewModel.CleanAvi();
-            ShowInformation();
+            if (KillImvu())
+            {
+                _action = "log, cache and avi";
+                _mainViewModel.CleanCache();
+                _mainViewModel.CleanLogs();
+                _mainViewModel.CleanAvi();
+                ShowInformation();
+            }
         }
 
         private void CleanLogs_Click(object sender, RoutedEventArgs e)
         {
-            KillImvu();
-            _action = "log";
-            _mainViewModel.CleanLogs();
-            ShowInformation();
+            if (KillImvu())
+            {
+                _action = "log";
+                _mainViewModel.CleanLogs();
+                ShowInformation();
+            }
         }
 
         private void CleanCache_Click(object sender, RoutedEventArgs e)
         {
-            _action = "cache";
-            KillImvu();
-            _mainViewModel.CleanCache();
-            ShowInformation();
+            if (KillImvu())
+            {
+                _action = "cache";
+                _mainViewModel.CleanCache();
+                ShowInformation();
+            }            
         }
 
         private void CleanAvi_Click(object sender, RoutedEventArgs e)
         {
-            _action = "avi";
-            KillImvu();
-            _mainViewModel.CleanAvi();
-            ShowInformation();
+            if (KillImvu())
+            {
+                _action = "avi";
+                _mainViewModel.CleanAvi();
+                ShowInformation();
+            }
         }
 
         private void ShowInformation()
@@ -68,19 +76,20 @@ namespace NightBits_IMVU_Cleaner
             MessageBox.Show(String.Format("The IMVU {0} files have been removed." + Environment.NewLine + "You can now start IMVU again." + Environment.NewLine + "This program has been created by Jeroen Saey (NightBits)",_action),"Done");
         }
 
-        private void KillImvu()
+        private bool KillImvu()
         {
             if (_mainViewModel.isRunning())
             {
                 if (MessageBox.Show("IMVU will be closed are you sure?", "Close IMVU", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.No)
                 {
-                    // Do nothing
+                    return false;
                 }
                 else
                 {
                     _mainViewModel.KillImvu();
                 }
             }
+            return true;
         }
     }
 }
